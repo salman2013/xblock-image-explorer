@@ -20,4 +20,8 @@
 """
 Image Explorer XBlock
 """
+from importlib.metadata import version
+
+__version__ = version("xblock-image-explorer")
+
 from .image_explorer import ImageExplorerBlock
